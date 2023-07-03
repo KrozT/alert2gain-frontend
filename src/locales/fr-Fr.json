@@ -1,0 +1,44 @@
+{
+  "header": {
+    "navigation": {
+      "dashboard": "Tableau de bord",
+      "details": "Détails"
+    },
+    "profile": {
+      "logout": "Déconnexion"
+    },
+    "themes": {
+      "system": "Système",
+      "light": "Clair",
+      "dark": "Sombre"
+    }
+  },
+  "views": {
+    "login": {
+      "form": {
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "submit": "Connexion",
+        "forgotPassword": "Mot de passe oublié ?",
+        "createAccount": "Créer un nouveau compte"
+      },
+      "details": {
+        "form": {
+          "sensorId": "ID du capteur",
+          "table": {
+            "timestamp": "Horodatage",
+            "value": "Valeur"
+          },
+          "buttons": {
+            "showLastReport": "Afficher le dernier rapport",
+            "hideLastReport": "Masquer le dernier rapport"
+          },
+          "noData": "Aucune donnée disponible, veuillez sélectionner une plateforme depuis le tableau de bord."
+        }
+      }
+    }
+  },
+  "footer": {
+    "text": "Droits d'auteur © {currentYear} - Tous droits réservés par {companyName}"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "header": {
+    "navigation": {
+      "dashboard": "Panel",
+      "details": "Detalles"
+    },
+    "profile": {
+      "logout": "Cerrar sesión"
+    },
+    "themes": {
+      "system": "Sistema",
+      "light": "Claro",
+      "dark": "Oscuro"
+    }
+  },
+  "views": {
+    "login": {
+      "form": {
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "submit": "Iniciar sesión",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "createAccount": "Crear una nueva cuenta"
+      }
+    },
+    "details": {
+      "form": {
+        "sensorId": "ID del sensor",
+        "table": {
+          "timestamp": "Marca de tiempo",
+          "value": "Valor"
+        },
+        "buttons": {
+          "showLastReport": "Mostrar último informe",
+          "hideLastReport": "Ocultar último informe",
+        },
+        "noData": "No hay datos disponibles, por favor seleccione una plataforma desde el panel de control."
+      }
+    }
+  },
+  "footer": {
+    "text": "Derechos de autor © {currentYear} - Todos los derechos reservados por {companyName}"
+  }
+}

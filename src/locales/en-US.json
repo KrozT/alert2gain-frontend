@@ -1,0 +1,44 @@
+{
+  "header": {
+    "navigation": {
+      "dashboard": "Dashboard",
+      "details": "Details"
+    },
+    "profile": {
+      "logout": "Logout"
+    },
+    "themes": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    }
+  },
+  "views": {
+    "login": {
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "submit": "Login",
+        "forgotPassword": "Forgot password?",
+        "createAccount": "Create new account"
+      }
+    },
+    "details": {
+      "form": {
+        "sensorId": "Sensor ID",
+        "table": {
+          "timestamp": "Timestamp",
+          "value": "Value"
+        },
+        "buttons": {
+          "showLastReport": "Show last report",
+          "hideLastReport": "Hide last report"
+        },
+        "noData": "No data available, please select a platform from dashboard"
+      }
+    }
+  },
+  "footer": {
+    "text": "Copyright © {currentYear} - All right reserved by {companyName}"
+  }
+}
