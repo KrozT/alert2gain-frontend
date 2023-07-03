@@ -39,9 +39,11 @@ watch(language, (value) => {
 
 /**
  * Check if the language is not the default one and update the locale accordingly.
+ * If the language is the default one, update the language accordingly.
  */
 onMounted(() => {
   if (language.value !== 'default') locale.value = language.value;
+  else language.value = locale.value;
 });
 </script>
 
